@@ -4,14 +4,14 @@
 int main() {
     char respuesta[20];
 
-    printf("Buen día, ¿cómo estás?\n");
+    printf("Buen dia, como estas?\n");
     scanf("%s", respuesta);
 
     // Comprobamos si la respuesta es "bien"
     if (strcmp(respuesta, "bien") == 0) {
-        printf("¡Qué bueno! :)\n");
+        printf("Que bueno! :)\n");
     } else {
-        printf("Entiendo. ¡Hasta luego!\n");
+        printf("Ok, chau.\n");
     }
 
     return 0;
